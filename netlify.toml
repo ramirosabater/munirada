@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Necesario para que el ruteo del lado del cliente (React Router) funcione
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
