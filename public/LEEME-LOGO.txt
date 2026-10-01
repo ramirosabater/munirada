@@ -1,0 +1,6 @@
+Poné acá la versión BLANCA del logo oficial de la Municipalidad con el nombre:
+
+    logo-blanco.png   (fondo transparente, ~400 px de ancho)
+
+En el sitio oficial es el archivo "6.2-Blanco" que aparece en el encabezado.
+Mientras no esté, la app muestra "Rada Tilly" en texto.
