@@ -6,12 +6,14 @@ export default function AuthShell({ titulo, bajada, children }) {
     <div className="auth-wrap">
       <header className="auth-hero">
         <div style={{ display: 'flex', justifyContent: 'center' }}><Brand big /></div>
-        <h1>{titulo}</h1>
-        {bajada && <p>{bajada}</p>}
         <Shore />
       </header>
       <div className="auth-body">
-        <div className="auth-card">{children}</div>
+        <div className="auth-card">
+          <h1 style={{ marginBottom: '0.2rem' }}>{titulo}</h1>
+          {bajada && <p className="muted" style={{ marginBottom: '1.2rem' }}>{bajada}</p>}
+          {children}
+        </div>
       </div>
     </div>
   )

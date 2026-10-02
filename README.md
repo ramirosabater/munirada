@@ -75,9 +75,10 @@ variables de entorno. `netlify.toml` ya trae el build y el redirect para las rut
 
 ## Antes de publicar: revisar
 
-- [ ] **Logo**: poné la versión blanca del logo oficial en `public/logo-blanco.png`.
-- [ ] **Colores**: están en el primer bloque de `src/index.css` (azul del Golfo,
-      celeste, ocre de la meseta). Si hay manual de marca, ajustalos ahí.
+- [x] **Logo y colores**: ya usan la identidad del Municipio (turquesa del logo,
+      verde petróleo, amarillo, mostaza y oliva). Están en el primer bloque de
+      `src/index.css`. El logo (`public/logo-blanco.png`) salió de una captura:
+      si conseguís el PNG original en alta calidad, reemplazalo con el mismo nombre.
 - [ ] **Cuotas**: los montos cargados son **de ejemplo** ($8.000 / $10.000 / $15.000).
       Corregilos en Gestión > Actividades.
 - [ ] **Días y horarios de los talleres de arte**: el sitio no los publica; quedaron
